@@ -1,0 +1,19 @@
+@mixin passedAfter {
+    content: '';
+    height: 4px;
+    width: 70%;
+    background-color: $secondary-text-color;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+@mixin failedAfter {
+        content: '';
+        height: 4px;
+        width: 70%;
+        background-color: $Highlight-color;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+}
